@@ -3,8 +3,12 @@
   "name": "fund.ava/ava-advisor",
   "title": "Ava Advisor",
   "description": "Your AI watches the markets so you can live your life. Financial intelligence for everybody.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://ava.fund",
+  "repository": {
+    "url": "https://github.com/ava-fund/ava-advisor-mcp",
+    "source": "github"
+  },
   "remotes": [
     {
       "type": "streamable-http",
