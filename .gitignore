@@ -1,0 +1,19 @@
+# Secrets and credentials — never commit
+.env
+.env.*
+!.env.example
+.secrets/
+*.key
+*.pem
+*.p12
+*.pfx
+credentials*.json
+service-account*.json
+*-sa.json
+.npmrc
+.pypirc
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

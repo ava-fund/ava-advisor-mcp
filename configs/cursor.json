@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "ava-advisor": {
+      "url": "https://mcp.ava.fund/mcp",
+      "headers": {
+        "Authorization": "Bearer ${env:AVA_ADVISOR_API_KEY}"
+      }
+    }
+  }
+}

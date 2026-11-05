@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "fund.ava/ava-advisor",
+  "title": "Ava Advisor",
+  "description": "Your AI watches the markets so you can live your life. Financial intelligence for everybody.",
+  "version": "1.0.0",
+  "websiteUrl": "https://ava.fund",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.ava.fund/mcp"
+    }
+  ],
+  "icons": [
+    {
+      "src": "https://ava.fund/images/ava-advisor-logo.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ]
+}
